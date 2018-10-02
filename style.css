@@ -53,5 +53,33 @@ ul li {
 
 .letrasRayadas {
     font-family: 'Monoton', cursive;
+    font-size: 8em;
+    background: transparent;
+    font-style: normal;
 }
 
+.denajoRayadas {
+    font-size: 1.6em;
+}
+
+.articulo {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, auto));
+    grid-template-rows: repeat(2, minmax(150px, auto))
+}
+
+.imgenerica {
+    width: 50%;
+    height: 50%;
+}
+
+.sSection {
+    border-radius: 15em;
+    align-content: center;
+    width: 1fr;
+    margin: 0.5em;
+}
+
+.genericoNaranja {
+    
+}

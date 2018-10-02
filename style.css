@@ -7,3 +7,51 @@
     margin: 0;
     padding: 0;
 }
+
+ul li {
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.eCompleto {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./public/img/fondo.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #000000;
+    color: #ffffff;
+    list-style: none;
+    align-items: center;
+}
+
+.imgheader {
+    width: 4.3em;
+    height: 4.3em;
+}
+
+.portadaFondo {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    margin: 17%;
+}
+
+.letrasRayadas {
+    font-family: 'Monoton', cursive;
+}
+
